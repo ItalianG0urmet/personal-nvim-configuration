@@ -1,0 +1,28 @@
+-- core/highlight.lua jetbrains colors
+local hl = vim.api.nvim_set_hl
+
+hl(0, "Normal",      { fg = "#A9B7C6", bg = "#000000" })
+hl(0, "Comment",     { fg = "#808080", italic = true })
+hl(0, "Keyword",     { fg = "#CC7832", bold = true })
+hl(0, "Statement",   { fg = "#CC7832", bold = true })
+hl(0, "Number",      { fg = "#6897BB" })
+hl(0, "String",      { fg = "#6A8759" })
+hl(0, "Identifier",  { fg = "#A9B7C6" })
+hl(0, "Function",    { fg = "#FFC66D", bold = true })
+hl(0, "Type",        { fg = "#A9B7C6" })
+hl(0, "Constant",    { fg = "#9876AA" })
+hl(0, "PreProc",     { fg = "#BBB529" })
+hl(0, "Operator",    { fg = "#A9B7C6" })
+hl(0, "Special",     { fg = "#A9B7C6" })
+hl(0, "LineNr",      { fg = "#5A5A5A", bg = "#101010" })
+hl(0, "CursorLineNr",{ fg = "#FFFFFF", bg = "#202020", bold = true })
+hl(0, "MatchParen",  { fg = "#FFFFFF", bg = "#3A3A3A" })
+hl(0, "Visual",      { bg = "#404040" })
+hl(0, "Search",      { bg = "#5F5F00" })
+hl(0, "IncSearch",   { bg = "#FFFF00", fg = "#000000" })
+hl(0, "ErrorMsg",    { fg = "#FF0000", bg = "#2A0000" })
+hl(0, "Todo",        { fg = "#000000", bg = "#FFFF00" })
+vim.api.nvim_set_hl(0, "ExtraWhitespace",         { ctermbg = 1,    bg = "#FF0000" })
+vim.api.nvim_set_hl(0, "IndentBlanklineIndent",   { fg = "#3A3A3A" })
+vim.api.nvim_set_hl(0, "IndentBlanklineContext",  { fg = "#CC7832", bold = true })
+
